@@ -1,0 +1,15 @@
+insert into Sexo(Nombre) values('Masculino');
+insert into Sexo(Nombre) values('Femenino');
+
+insert into Nacionalidad(Nombre) values('Argentino');
+insert into Nacionalidad(Nombre) values('Peruano');
+insert into Nacionalidad(Nombre) values('Boliviano');
+insert into Nacionalidad(Nombre) values('Paraguayo');
+
+insert into TipoRelacions(Relacion) values('PADRE');
+insert into TipoRelacions(Relacion) values('HERMAN@');
+insert into TipoRelacions(Relacion) values('PRIM@');
+insert into TipoRelacions(Relacion) values('TI@');
+
+insert into TipoDocumento(Tipo) values('DNI')
+insert into TipoDocumento(Tipo) values('Pasaporte')

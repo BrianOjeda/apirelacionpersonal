@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALeJ+CXQTwkqGZq9CbSgoiQAAAAACAAAAAAAQZgAAAAEAACAAAADUqc8eAENf3N4/LH+yquUy2VgROAwzOK3QWWmoWDfC5AAAAAAOgAAAAAIAACAAAADQIeDtbUVyWHYy50ooZTbtbVLRlrpm4vEtvsLFjQtoOYAAAAAuRdW92vRLGLVG4TzJC6WPkMefitFM/MBwmWr12u+djW/DzRmKfLes/mRrdtkijDQao5Eu2m5q5qCIZYGrFSmgpuu5o2zOdRyXvddVid4G84uUxLa8+CjQXqA+TCucsUdcOLZ7NPMR2X+SXk/wCuzlns4xOYnXFleBMsgq/Eh8tEAAAACE/mKR+HAgxFhp+ObBLRh1o/EZBVLh1fPBqE3GASiyRrzMYoCsD+gYwFdd/58qSXJKPE+2G3He0bOKM2IH5ohR</EncryptedPassword>
+    <History>True|2022-10-19T17:31:20.5851787Z;True|2022-10-19T13:52:37.5618250-03:00;True|2022-10-19T13:49:04.8287279-03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="ApiRelacionPersonas.Domain.RelacionPersonaDbContext">
+      <Value>Data Source=tcp:apirelacionpersonasdbserver.database.windows.net,1433%3bInitial Catalog=ApiRelacionPersonas_db%3bUser Id=bojeda%40apirelacionpersonasdbserver%3bPassword=Brian42094</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
