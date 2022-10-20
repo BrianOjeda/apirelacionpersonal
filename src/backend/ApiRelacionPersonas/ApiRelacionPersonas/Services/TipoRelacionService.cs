@@ -29,5 +29,19 @@ namespace ApiRelacionPersonas.Services
             }
             
         }
+
+        public IQueryable<TipoRelacion> GetAll()
+        {
+            try
+            {
+                return _tipoRelacionManager.GetAll();
+
+            }
+            catch (Exception ex)
+            {
+                this._logger.LogError(ex.Message, ex);
+                throw new ServiceException("Se produjo un error al traer los tipos de relaciones");
+            }
+        }
     }
 }

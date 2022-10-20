@@ -1,4 +1,4 @@
-﻿namespace ApiRelacionPersonas.Domain.Entities
+﻿namespace ApiRelacionPersonas.Domain
 {
     public class Sexo
     {

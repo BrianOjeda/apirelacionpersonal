@@ -1,5 +1,5 @@
 ﻿
-using ApiRelacionPersonas.Domain.Entities;
+using ApiRelacionPersonas.Domain;
 
 namespace ApiRelacionPersonas.Domain
 {
